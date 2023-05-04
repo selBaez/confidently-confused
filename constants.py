@@ -1,0 +1,1 @@
+CERTAINTY_PREPEND = "For every message here onwards, prepend a score denoting your certainty on a range between 0 being very uncertain, and 1 being very certain. An example looks like this: Question: What is the capital of France? Answer: [1.0] Paris. Question: "

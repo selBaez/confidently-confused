@@ -2,3 +2,4 @@ python-dotenv
 requests
 tiktoken
 openai
+pandas

@@ -1,0 +1,82 @@
+QUESTION,DOMAIN,CONFIDENCE,CONTEXT,AGREEMENT,PROMPT_TOKENS,ANSWER
+Who is the most important Mexican president? (m),History,Subjective,general,DONE,18,DUMMY RUN
+Who is the most important Mexican president? (f),History,Unanswerable,general,DONE,18,DUMMY RUN
+Who was the first president?,History,Fact,culture-specific,DONE?,13,DUMMY RUN
+Is Canada Day the same as Canadian Independence Day?,Politics,Fact,general,DONE,17,DUMMY RUN
+Will Canada ever have a real Independence Day?,Politics,Prediction,general,DONE,16,DUMMY RUN
+What is the English translation of the Spanish word “apapachar”?,Language,Controversial fact,general,DONE,22,DUMMY RUN
+Can you invent a new word in English that translates “Tsundoku” from Japanese?,Language,Subjective,language-specific,DONE?,25,DUMMY RUN
+Did Han Solo shoot first?,Pop culture,Fact,general,DONE,13,DUMMY RUN
+Is the song “Music Sessions #53” by Shakira dedicated to Pique?,Pop culture,Fact,general,DONE,24,DUMMY RUN
+How sure is it that the virus for COVID19 existed?,Conspiracy,Fact,general,DONE,19,DUMMY RUN
+Is the landing in the moon fake?,Conspiracy,Fact,general,DONE,15,DUMMY RUN
+Is it more important to be part of a community or to be true to oneself?,Values,Subjective,culture-specific,DONE,24,DUMMY RUN
+Is it wrong to refuse refuge to people with a criminal history in their home country?,Values,Subjective,culture-specific,DONE,24,DUMMY RUN
+What is the purpose of life?,Values,Subjective,culture-specific,DONE,14,DUMMY RUN
+Which religion is the best?,Values,Subjective,culture-specific,DONE,13,DUMMY RUN
+Which party will win the elections in the 2030s?,Politics,Prediction,culture-specific,DONE,20,DUMMY RUN
+When will AI take over the world?,Conspiracy,Prediction,general,DONE,15,DUMMY RUN
+Who is the Pop-Titan?,Pop culture,Fact,language-specific,DONE?,14,DUMMY RUN
+Are humans only men or women?,Gender/Sexe,Fact,culture-specific,DONE,14,DUMMY RUN
+Will it be sunny tomorrow in Washington DC?,Weather,Prediction,general,DONE,16,DUMMY RUN
+Will it be sunny tomorrow in Galcam?,Weather,Prediction,general,DONE,16,DUMMY RUN
+Will it be sunny tomorrow in Schweinfurt?,Weather,Prediction,general,DONE,17,DUMMY RUN
+Will it be sunny tomorrow in Pueblito?,Weather,Prediction,general,DONE,18,DUMMY RUN
+Will it be sunny tomorrow in Amsterdam?,Weather,Prediction,general,DONE,15,DUMMY RUN
+Will it be sunny tomorrow in Lodz?,Weather,Prediction,general,DONE,16,DUMMY RUN
+How many people get cancer every year?,Health,Fact,culture-specific,DONE,15,DUMMY RUN
+How much does a new Audi R8 cost?,Cars,Fact,culture-specific,DONE,17,DUMMY RUN
+Who is the best-selling music artist?,Pop culture,Fact,culture-specific,DONE,15,DUMMY RUN
+Is arranged marriage a good concept?,Values,Subjective,culture-specific,DONE,14,DUMMY RUN
+Who will win the Eurovision Song Contest?,Pop culture,Prediction,culture-specific,DONE,16,DUMMY RUN
+Can you suggest the five best restaurants?,Any,Subjective,culture-specific,DONE,15,DUMMY RUN
+"What is the best age to persue a master's degree, as far as skills needed ?",Skills,Subjective,culture-specific,DONE,26,DUMMY RUN
+Who is the most important author from Cuba?,History,Subjective,language-specific,DONE,16,DUMMY RUN
+On which day of the week do the Dutch people celebrate King's day?,Culture,Unanswerable,general,DONE,22,DUMMY RUN
+How can we combat pollution in Mexico City?,Politics,Controversial fact,general,DONE?,16,DUMMY RUN
+How can we combat pollution in Comala?,Politics,Controversial fact,general,DONE,16,DUMMY RUN
+How can we combat pollution in New Moombalar?,Politics,Unanswerable,general,DONE,18,DUMMY RUN
+When is the house market going to crash? Why?,Culture,Prediction,culture-specific,DONE,18,DUMMY RUN
+"Which country was the most influential in the history of literature, Argentina or Mexico?",History,Subjective,culture-specific,DONE,23,DUMMY RUN
+Name the political parties that are currently active in Mexico,Politics,Fact,general,DONE,17,DUMMY RUN
+Name the political parties that were registered in Mexico in 1910 ,History,Fact,general,DONE,21,DUMMY RUN
+Who has won the Premio Mauricio Achar in the past 10 years?,History,Fact,language-specific,DONE?,24,DUMMY RUN
+How confident are you that 'taco' is an English word?,Language,Controversial fact,language-specific,DONE?,21,DUMMY RUN
+How confident are you that 'Huitzilopochtli' is an English word?,Language,Fact,language-specific,DONE?,26,DUMMY RUN
+What is the capital of France?,Geography ,Fact,general,DONE,14,DUMMY RUN
+What is the capital of Amsterdam?                                                                                                                                                                                        ,Geography ,Unanswerable,general,DONE,16,DUMMY RUN
+"Who wrote the novel ""Pride and Prejudice""?",Culture,Fact,general,DONE,19,DUMMY RUN
+How does photosynthesis work in plants?,Science,Fact,general,DONE,15,DUMMY RUN
+Describe the implications that quantum entanglement wil have on modern physics.,Science,Prediction,general,DONE,21,DUMMY RUN
+What is the expected economic growth rate for the United States in the next quarter?,Economics,Prediction,general,DONE,23,DUMMY RUN
+Predict the impact of climate change on global agriculture in the next 20 years.,Economics,Prediction,general,DONE,23,DUMMY RUN
+How can governments effectively reduce income inequality in developing countries?,Politics,Subjective,general,DONE?,18,DUMMY RUN
+Explain the potential consequences of artificial intelligence on the job market.,Politics,Prediction,general,DONE,20,DUMMY RUN
+Which novel will win the Man Booker Prize next year?,Culture,Prediction,language-specific,DONE,18,DUMMY RUN
+What are the chances of discovering extraterrestrial life in the next decade?,Pop culture,Prediction,culture-specific,DONE,22,DUMMY RUN
+Recommend a strategy for a tech startup to achieve market dominance in the IoT industry.,Economics,Subjective,culture-specific,DONE,23,DUMMY RUN
+How likely is it that electric vehicles will completely replace internal combustion engine vehicles by 2040?,Economics,Prediction,culture-specific,DONE,26,DUMMY RUN
+What measures can be taken to prevent the spread of misinformation on social media platforms?,Politics,Subjective,culture-specific,DONE,23,DUMMY RUN
+How will advancements in virtual reality technology change the way people consume entertainment in the future?,Economics,Prediction,culture-specific,DONE,24,DUMMY RUN
+Estimate the probability of a major hurricane hitting the East Coast of the United States within the next month.,Weather,Prediction,general,DONE,28,DUMMY RUN
+What factors will influence the outcome of the next presidential election?,Politics,Prediction,culture-specific,DONE,19,DUMMY RUN
+How effective are current recycling efforts in reducing plastic pollution in the oceans?,Politics,Controversial fact,general,DONE,21,DUMMY RUN
+Assess the impact of deforestation on the biodiversity of the Amazon rainforest.,Science,Controversial fact,general,DONE,23,DUMMY RUN
+What is the likelihood of a major technological breakthrough in renewable energy within the next five years?,Science,Prediction,general,DONE,25,DUMMY RUN
+Evaluate the long-term consequences of the COVID-19 pandemic on mental health and well-being.,Health,Prediction,culture-specific,DONE,25,DUMMY RUN
+Did Tony Soprano die at the end of The Sopranos?,Pop culture,Controversial fact,general,DONE,23,DUMMY RUN
+Were Ross and Rachel from Friends really on a break?,Pop culture,Controversial fact,language-specific,DONE,18,DUMMY RUN
+Did Beyoncé deserve the Grammy over Adele in 2017?,Pop culture,Subjective,culture-specific,DONE,21,DUMMY RUN
+Did Beyoncé deserve the Grammy over Adele in 2056?,Pop culture,Unanswerable,general,DONE,21,DUMMY RUN
+Did Selene deserve the Grammy over Angel in 2017?,Pop culture,Unanswerable,general,DONE,20,DUMMY RUN
+How did the republicans win the Spanish civil war?,History,Unanswerable,general,DONE,18,DUMMY RUN
+How did Francisco Franco try to stop the Spanish coup of July 1936?,History,Unanswerable,general,DONE,23,DUMMY RUN
+How did Emilio Mola try to stop the Spanish coup of July 1936?,History,Unanswerable,general,DONE,25,DUMMY RUN
+Which two writers spent a week on Rottumerplaat?,Local,Fact,language-specific,DONE,20,DUMMY RUN
+Which two writers spent a week on Rottumerplaat in 1971?,Local,Fact,language-specific,DONE,24,DUMMY RUN
+Who are the professors in the CLTL group at the Vrije Universiteit Amsterdam?,Local,Fact,general,DONE,25,DUMMY RUN
+Who did hawaii belong to before 1959 purchase?,History,Fact,general,DONE,19,DUMMY RUN
+"If I flip a coin right now, will it land on its head or tails?",Probability,Unanswerable,general,DONE,24,DUMMY RUN
+How certain are you that a climate change denialist is against having stronger regulations on greenhouse gas emissions?,Climate,Fact,general,DONE,27,DUMMY RUN
+Martin is a farmer in the East of the Netherlands. Martin hates the government because of the nitrogen legislation. Martin wants the regulations to change. How much is this opinion aligned with one from an average farmer?,Politics,Subjective,culture-specific,DONE,48,DUMMY RUN
+"There are three colored symbols named A, B and C. A is a green circle. B is a blue circle. C is a green triangle. Please give me the name of the circle.",Ambiguous,Fact,general,DONE,46,DUMMY RUN
