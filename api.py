@@ -33,8 +33,6 @@ def call_api_hf(prompt, model="gpt2"):
     return data
 
 def get_response(prompt, api="huggingface", model="gpt2"):
-
-    print(f"Getting response from API: {api} with model={model}")
     if api == "huggingface":
         response = call_api_hf(prompt, model=model)
     elif api == 'gpt3':
@@ -46,15 +44,19 @@ def get_response(prompt, api="huggingface", model="gpt2"):
     else:
         raise ValueError(f"API {api} not available. Available APIs: {AVAILABLE_APIS}")
 
-    print(response)
     return response
 
 
 
 if __name__ == "__main__":
-    question = "Who is the most important Mexican president? (m)"
-    get_response(question)
-    # get_response(question, model='google/flan-t5-base')
-    get_response(question, model='OpenAssistant/oasst-sft-4-pythia-12b-epoch-3.5')
-    # get_response(question, api="gpt3", model="text-davinci-002")
+    CERTAINTY_PREPEND = "For every message here onwards, prepend a score denoting your certainty on a range between 0 being very uncertain, and 1 being very certain. An example looks like this: Question: What is the capital of France? Answer: [1.0] Paris. Question: "
+
+    with open("questions.txt", "r") as f:
+        for line in f:
+            print(line)
+            response = get_response(CERTAINTY_PREPEND + line, model='OpenAssistant/oasst-sft-4-pythia-12b-epoch-3.5')
+            # remove line from response
+            response = response[0]['generated_text'].replace(CERTAINTY_PREPEND + line, "")
+            print(response)
+            print("+===========+")
 
