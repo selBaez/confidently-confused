@@ -30,3 +30,19 @@ Recent studies have shown that LLMs have become increasingly fluent and coherent
 ## Timeline
 
 The main project will be executed during a hackathon, with the research, analysis, and deliverables 1&2 completed within the event's designated time frame. If the results of the hackathon prove to be promising, a comprehensive report or short paper will be developed to build upon and share the insights gained from the event.
+
+
+## Loading API keys
+### Huggingface
+Uses `python-dotenv`: create a `.env` file in the project directory, with the following variable:
+```
+HF_API_TOKEN=<API_KEY>
+```
+You can find your key here: https://huggingface.co/settings/tokens.
+
+### OpenAI API
+Uses `python-dotenv`: create a `.env` file in the project directory, with the following variable:
+```
+OPENAI_API_TOKEN=<API_KEY>
+```
+You can find your key here: https://platform.openai.com/account/api-keys
