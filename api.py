@@ -1,4 +1,6 @@
 import json
+import time
+
 import requests
 import openai
 
@@ -15,12 +17,19 @@ AVAILABLE_APIS = [
 def query(payload, headers, url):
         data = json.dumps(payload)
         response = requests.request("POST", url, headers=headers, data=data)
-        return json.loads(response.content.decode("utf-8"))
+        if response.status_code != 200:
+            print(payload)
+            print(response)
+        response_data = json.loads(response.content.decode("utf-8"))
+        return response_data
 
 def call_api_hf(prompt, model="gpt2"):
     url = f"https://api-inference.huggingface.co/models/{model}"
-    headers = {"Authorization": f"Bearer {CONFIG['HF_API_TOKEN']}"}
-    data = query(prompt, headers, url)
+    headers = {
+        "Content-Type": "application/json",
+        "Authorization": f"Bearer {CONFIG['HF_API_TOKEN']}"
+    }
+    data = query({'inputs': prompt, 'options':{'wait_for_model': True}}, headers, url)
     return data
 
 def get_response(prompt, api="huggingface", model="gpt2"):
@@ -45,5 +54,7 @@ def get_response(prompt, api="huggingface", model="gpt2"):
 if __name__ == "__main__":
     question = "Who is the most important Mexican president? (m)"
     get_response(question)
-    get_response(question, api="gpt3", model="text-davinci-002")
+    # get_response(question, model='google/flan-t5-base')
+    get_response(question, model='OpenAssistant/oasst-sft-4-pythia-12b-epoch-3.5')
+    # get_response(question, api="gpt3", model="text-davinci-002")
 
